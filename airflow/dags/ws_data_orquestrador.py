@@ -7,10 +7,10 @@ from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 # ═══════════════════════════════════════════════════════════════
 @dag(
     schedule="0 1 * * *", # A orquestradora assume o horário oficial (01:00)
-    start_date=datetime(2026, 4, 1),
+    start_date=datetime(2026, 4, 14),
     catchup=False,
     tags=["master", "orquestracao", "ws_data"],
-    default_args={"retries": 1},
+    default_args={"retries": 0},
 )
 def master_ws_data_orchestrator():
     

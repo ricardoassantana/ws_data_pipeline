@@ -30,7 +30,7 @@ execution_config = ExecutionConfig(
 
 @dag(
     schedule=None,#"0 1 * * *", # Roda todos os dias à 01:00 da manhã
-    start_date=datetime(2026, 4, 1),
+    start_date=datetime(2026, 4, 14),
     catchup=False,
     tags=["dbt", "medalhao", "ws_data"],
     default_args={"retries": 1},
