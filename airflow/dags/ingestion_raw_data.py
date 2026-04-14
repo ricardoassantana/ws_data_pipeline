@@ -16,7 +16,7 @@ ARQUIVOS_PARA_DOWNLOAD = {
 
 @dag(
     dag_id="ingestion_raw_data",
-    start_date=datetime(2026,4,10),
+    start_date=datetime(2026,4,14),
     schedule=None,
     catchup=False,
     tags=["raw", "python", "ingestion"],
