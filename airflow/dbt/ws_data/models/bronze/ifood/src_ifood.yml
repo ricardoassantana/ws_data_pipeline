@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: raw_ifood_source
+    schema: raw
+    tables:
+      - name: raw_ifood

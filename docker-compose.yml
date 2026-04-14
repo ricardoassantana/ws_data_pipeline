@@ -1,0 +1,92 @@
+version: '3.8'
+
+x-airflow-common:
+  &airflow-common
+  build: .
+  env_file:
+    - .env
+  volumes:
+    - ./airflow/dags:/opt/airflow/dags
+    - ./airflow/dbt:/opt/airflow/dbt
+    - ./airflow/logs:/opt/airflow/logs
+    - ./airflow/plugins:/opt/airflow/plugins
+    - ./airflow/include:/opt/airflow/include
+    - ./ws_data_dados:/opt/airflow/ws_data_dados
+  depends_on:
+    postgres:
+      condition: service_healthy
+
+services:
+  # Banco de Dados
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 10s
+      retries: 5
+    ports:
+      - "5432:5432"
+
+  # Inicializador (Roda uma vez para criar as tabelas e usuários)
+  airflow-init:
+    <<: *airflow-common
+    command: version
+    environment:
+      _AIRFLOW_DB_MIGRATE: 'true'
+      _AIRFLOW_WWW_USER_CREATE: 'true'
+      _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-admin}
+      _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-admin}
+
+  # A Nova Interface Gráfica / API do Airflow 3
+  airflow-apiserver:
+    <<: *airflow-common
+    command: api-server
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+
+  # O Agendador (Decide QUANDO as coisas rodam)
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+
+    environment:   
+      AIRFLOW__API__BASE_URL: http://airflow-apiserver:8080
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+
+  # O Leitor de DAGs (Lê a pasta /dags constantemente)
+  airflow-dag-processor:
+    <<: *airflow-common
+    command: dag-processor
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-triggerer:
+    <<: *airflow-common
+    command: triggerer
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+        
+volumes:
+  postgres-db-volume:

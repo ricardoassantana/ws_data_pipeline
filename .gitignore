@@ -1,0 +1,28 @@
+# Ambientes Virtuais Python
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+venv_dbt_local/
+**/venv_dbt_local/
+
+# Arquivos de Senhas e Variáveis de Ambiente (CRÍTICO!)
+.env
+.venv
+profiles.yml 
+relatorio_erro_airflow.md
+ws_data_dados/readme.md
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Arquivos automáticos do dbt
+target/
+dbt_packages/
+logs/
+
+# Arquivos automáticos do Airflow e SO
+.DS_Store
