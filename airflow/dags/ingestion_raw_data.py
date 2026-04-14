@@ -6,7 +6,7 @@ from airflow.providers.postgres.hooks.postgres import PostgresHook
 import logging
 
 # mapeando o caminho do conteiner
-CAMINHO_BASE = "/opt/airflow/ws_data_dados/ws-data-test/data"
+CAMINHO_BASE = "/opt/airflow/ws_data_dados/data/"
 
 ARQUIVOS_PARA_DOWNLOAD = {
     "raw_google": f"{CAMINHO_BASE}/google.csv",
