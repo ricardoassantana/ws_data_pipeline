@@ -33,7 +33,7 @@ execution_config = ExecutionConfig(
     start_date=datetime(2026, 4, 14),
     catchup=False,
     tags=["dbt", "medalhao", "ws_data"],
-    default_args={"retries": 1},
+    default_args={"retries": 0},
 )
 def dbt_ws_data_pipeline():
     ## Executando a camada bronze

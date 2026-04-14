@@ -27,7 +27,7 @@ def master_ws_data_orchestrator():
     trigger_dbt = TriggerDagRunOperator(
         task_id="trigger_dbt_transformation",
         trigger_dag_id="dbt_ws_data_pipeline", 
-        wait_for_completion=True,
+        wait_for_completion=False,
     )
 
 
