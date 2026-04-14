@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from datetime import datetime 
 from airflow.sdk import dag, task
+from sqlalchemy import text
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 import logging
 
@@ -39,6 +40,10 @@ def ingestion_raw_data():
 
         logging.info(f"Lendo o arquivo: {caminho_arquivo}")
         df = pd.read_csv(caminho_arquivo)
+
+        logging.info(f"Realizando DROP CASCADE na tabela raw.{nome_tabela} para limpar as dependências...")
+        with engine.begin() as conn:
+            conn.execute(text(f"DROP TABLE IF EXISTS raw.{nome_tabela} CASCADE;"))
 
         # Salva a tabela no banco na raw
 

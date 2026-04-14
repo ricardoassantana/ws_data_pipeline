@@ -6,7 +6,7 @@ from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 # A DAG ORQUESTRADORA (Master DAG)
 # ═══════════════════════════════════════════════════════════════
 @dag(
-    schedule="0 1 * * *", # A orquestradora assume o horário oficial (01:00)
+    schedule=None,#"0 1 * * *", # A orquestradora assume o horário oficial (01:00)
     start_date=datetime(2026, 4, 14),
     catchup=False,
     tags=["master", "orquestracao", "ws_data"],
@@ -20,6 +20,7 @@ def master_ws_data_orchestrator():
         trigger_dag_id="ingestion_raw_data", # Id da dag
         wait_for_completion=True,            # So roda após o sucesso.
         poke_interval=30,                    # De 30 em 30 segundos checa se a ingestão deu certo.
+        deferrable=True,
     )
 
     # : Dispara a Transformação (dbt)
@@ -32,5 +33,5 @@ def master_ws_data_orchestrator():
 
     trigger_ingestion >> trigger_dbt
 
-# Instanciando a DAG para o Airflow reconhecer
+# Instanciando a DAG para o Airflow 
 master_ws_data_orchestrator()
