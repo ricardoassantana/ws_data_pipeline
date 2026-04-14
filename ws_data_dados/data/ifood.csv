@@ -1,0 +1,94 @@
+slug,name,category,cnpj,street_name,street_number,complement,district,city,state,zipcode,phone,latitude,longitude
+padaria-pao-de-mel,Padaria Pão de Mel,Padaria,12345678000190,Rua dos Pinheiros,123,,Pinheiros,São Paulo,SP,05422010,(11) 3082-1111,-23.5624,-46.6899
+sabor-da-terra-pinheiros,Sabor da Terra,Brasileira,23456789000101,Rua Cardeal Arcoverde,456,Sala 1,Pinheiros,São Paulo,SP,05407003,(11) 3082-2222,-23.5648,-46.6867
+supermercado-familia-pinheiros,Supermercado Família,Mercado,34567890000112,Rua Mourato Coelho,789,,Pinheiros,São Paulo,SP,05417-010,(11) 3083-3333,-23.5597,-46.6875
+pizza-express-vila-madalena,Pizza Express,Pizza,45678901000123,R. Wisard,332,Loja A,Vila Madalena,São Paulo,SP,05434080,(11) 3815-4444,-23.5575,-46.6897
+bar-do-ze,Bar do Zé,Bar,,Rua Harmonia,654,,Vila Madalena,São Paulo,SP,05435000,(11) 9999-5555,-23.5582,-46.6869
+lanchonete-delicia,Lanchonete Delícia,Lanches,67890123000145,Rua Artur de Azevedo,234,,Cerqueira César,São Paulo,SP,05404010,(11) 9777-0607,-23.5639,-46.6843
+bom-corte-acougue,Bom Corte Açougue,Açougue,78901234000156,Rua Teodoro Sampaio,890,,Pinheiros,São Paulo,SP,05405050,(11) 3064-7777,-23.5631,-46.6848
+arte-cafe-vila-madalena,Arte Café,Café,90123456000178,R. Aspicuelta,180,,Vila Madalena,São Paulo,SP,05433010,(11) 3032-9999,-23.5567,-46.6880
+sushi-hana,Sushi Hana,Japonesa,11222333000190,Rua Wisard,508,,Vila Madalena,São Paulo,SP,05434-050,(11) 3815-1111,-23.5572,-46.6899
+hamburgueria-artesanal,Hamburgueria Artesanal,Hambúrguer,,R. Fradique Coutinho,320,,Vila Madalena,São Paulo,SP,05422130,(11) 9888-1212,-23.5581,-46.6912
+churrascaria-gaucha-pinheiros,Churrascaria Gaúcha,Churrascaria,33444555000112,Rua Teodoro Sampaio,1340,,Pinheiros,São Paulo,SP,05406020,(11) 3064-1313,-23.5640,-46.6832
+doce-sabor-confeitaria,Doce Sabor,Doces e Bolos,55666777000134,R. Artur de Azevedo,456,Loja 2,Cerqueira César,São Paulo,SP,05404020,(11) 3088-1515,-23.5639,-46.6843
+emporio-natural-pinheiros,Empório Natural,Mercado,66777888000145,Rua Mourato Coelho,678,,Pinheiros,São Paulo,SP,05417015,(11) 9765-1818,-23.5601,-46.6875
+bella-napoli-pizzaria,Bella Napoli,Pizza,77888999000156,Rua Aspicuelta,432,,Vila Madalena,São Paulo,SP,05433020,(11) 3032-1616,-23.5564,-46.6872
+aquarius-bar-restaurante,Aquarius,Bar,88999000000167,Rua Harmonia,300,,Vila Madalena,São Paulo,SP,05435-010,(11) 3815-1717,-23.5580,-46.6869
+acaiteria-top-fradique,Açaíteria Top,Açaí,10203040000189,R. Fradique Coutinho,150,,Vila Madalena,São Paulo,SP,05422150,(11) 9876-2222,-23.5585,-46.6912
+verde-vida-hortifruti,Verde Vida Hortifruti,Mercado,30405060000101,Rua Cardeal Arcoverde,780,,Pinheiros,São Paulo,SP,05407008,(11) 3083-2121,-23.5645,-46.6864
+poke-bowl-madalena,Poké Bowl Madalena,Poke,,R. Harmonia,120,,Vila Madalena,São Paulo,SP,05435000,(11) 9654-2525,-23.5583,-46.6870
+petiscos-da-vila,Petiscos da Vila,Petiscos,,R. Aspicuelta,90,,Vila Madalena,São Paulo,SP,05433005,(11) 9543-1919,-23.5570,-46.6882
+acai-tropicana,Açaí Tropicana,Açaí,41000001000181,R. Fradique Coutinho,280,,Vila Madalena,São Paulo,SP,05422-130,(11) 9754-2020,-23.5585,-46.6912
+el-burrito-taqueria,El Burrito Taqueria,Mexicana,41000002000172,Rua Girassol,67,,Vila Madalena,São Paulo,SP,05433050,(11) 3032-3030,-23.5562,-46.6890
+salgaderia-minuto-pinheiros,Salgaderia Minuto,Salgados,41000003000163,Rua Teodoro Sampaio,432,,Pinheiros,São Paulo,SP,05405020,(11) 3064-4040,-23.5625,-46.6855
+tempero-caseiro,Tempero Caseiro,Brasileira,41000004000157,Rua Mourato Coelho,345,,Pinheiros,São Paulo,SP,05417010,(11) 3083-5050,-23.5600,-46.6878
+bar-girassol-vila-madalena,Bar Girassol,Bar,41000005000148,Rua Girassol,198,,Vila Madalena,São Paulo,SP,05433060,(11) 3032-6060,-23.5560,-46.6888
+atelie-do-sorvete,Ateliê do Sorvete,Sorvetes,41000006000132,Rua Fidalga,89,,Vila Madalena,São Paulo,SP,05432-030,(11) 3032-7070,-23.5568,-46.6920
+pizzaria-sao-cosme,Pizzaria São Cosme,Pizza,41000007000123,R. Harmonia,445,,Vila Madalena,São Paulo,SP,05435020,(11) 3815-8080,-23.5577,-46.6865
+sakura-japones,Sakura,Japonesa,41000008000114,R. Wisard,678,,Vila Madalena,São Paulo,SP,05434-090,(11) 3815-9090,-23.5573,-46.6893
+padaria-villa-madalena,Padaria Villa Madalena,Padaria,41000009000108,R. Aspicuelta,320,,Vila Madalena,São Paulo,SP,05433015,(11) 3032-1020,-23.5568,-46.6883
+cafe-coado-purpurina,Café Coado,Café,41000010000100,R. Purpurina,78,,Vila Madalena,São Paulo,SP,05435060,(11) 3815-1030,-23.5575,-46.6857
+bistro-do-artur,Bistrô do Artur,Francesa,41000011000191,Rua Artur de Azevedo,890,,Cerqueira César,São Paulo,SP,05404050,(11) 3088-1040,-23.5640,-46.6838
+taqueria-el-loco,Taqueria El Loco,Mexicana,41000012000182,R. Inácio Pereira da Rocha,234,,Vila Madalena,São Paulo,SP,05434070,(11) 3815-1050,-23.5576,-46.6902
+vegan-place,Vegan Place,Vegana,41000013000176,R. Fradique Coutinho,450,,Vila Madalena,São Paulo,SP,05422130,(11) 9754-1060,-23.5582,-46.6910
+tasca-portuguesa,Tasca Portuguesa,Portuguesa,41000014000167,Rua Cardeal Arcoverde,890,,Pinheiros,São Paulo,SP,05407010,(11) 3083-1070,-23.5650,-46.6862
+crepe-e-cafe,Crepe e Café,Crepes,41000015000151,Rua Sumidouro,123,,Pinheiros,São Paulo,SP,05421030,(11) 3082-1080,-23.5609,-46.6869
+hamburgueria-do-bairro,Hamburgueria do Bairro,Hambúrguer,41000016000142,Rua Heitor Penteado,76,,Pinheiros,São Paulo,SP,05438020,(11) 3032-1090,-23.5568,-46.6880
+restaurante-mineiro-pinheiros,Restaurante Mineiro,Brasileira,41000017000136,Rua dos Pinheiros,780,,Pinheiros,São Paulo,SP,05422040,(11) 3082-1100,-23.5635,-46.6886
+yakissoba-da-casa,Yakissoba da Casa,Japonesa,41000018000127,R. Wisard,150,,Vila Madalena,São Paulo,SP,05434055,(11) 3815-1110,-23.5572,-46.6898
+bar-dos-artistas,Bar dos Artistas,Bar,41000019000111,Rua Harmonia,520,,Vila Madalena,São Paulo,SP,05435020,(11) 3815-1120,-23.5578,-46.6864
+lanches-do-bairro,Lanches do Bairro,Lanches,41000020000103,Rua Mourato Coelho,900,,Pinheiros,São Paulo,SP,05417020,(11) 3083-1130,-23.5598,-46.6873
+padaria-sempre-fresco,Padaria Sempre Fresco,Padaria,41000021000194,Rua Cardeal Arcoverde,567,,Pinheiros,São Paulo,SP,05407005,(11) 3083-1140,-23.5647,-46.6865
+restaurante-arabe-pinheiros,Restaurante Árabe,Árabe,41000022000185,Rua Teodoro Sampaio,2100,,Pinheiros,São Paulo,SP,05406040,(11) 3064-1150,-23.5643,-46.6828
+gelados-especiais,Gelados Especiais,Sorvetes,41000023000179,Rua dos Pinheiros,456,,Pinheiros,São Paulo,SP,05422025,(11) 3082-1160,-23.5626,-46.6894
+frango-do-pedro,Frango do Pedro,Grelhados,41000024000160,R. Aspicuelta,567,,Vila Madalena,São Paulo,SP,05433025,(11) 3032-1170,-23.5563,-46.6874
+boa-tarde-cafe,Boa Tarde Café,Café,41000025000154,Rua Girassol,340,,Vila Madalena,São Paulo,SP,05433060,(11) 3032-1180,-23.5559,-46.6887
+grilados-kitchen,Grilados Kitchen,Grelhados,41000054000160,R. Wisard,410,,Vila Madalena,São Paulo,SP,05434075,(11) 3815-1270,-23.5574,-46.6895
+grilados-veggie,Grilados Veggie,Vegana,41000054000160,R. Wisard,410,,Vila Madalena,São Paulo,SP,05434075,(11) 3815-1270,-23.5574,-46.6895
+fast-comfort-lanches,Fast Comfort Lanches,Lanches,41000055000154,R. Purpurina,350,,Vila Madalena,São Paulo,SP,05435070,(11) 3815-1280,-23.5577,-46.6854
+fast-comfort-fit,Fast Comfort Fit,Saudável,41000055000154,R. Purpurina,350,,Vila Madalena,São Paulo,SP,05435070,(11) 3815-1280,-23.5577,-46.6854
+dulce-confeitaria,Dulce Confeitaria,Doces e Bolos,41000056000145,Rua Girassol,234,,Vila Madalena,São Paulo,SP,05433055,(11) 3032-1290,-23.5558,-46.6889
+dulce-confeitaria-vila,Dulce — Vila Madalena,Doces e Bolos,41000056000145,R. Girassol,234,,Vila Madalena,São Paulo,SP,05433055,(11) 3032-1290,-23.5558,-46.6889
+temakeria-boa,Temakeria Boa,Japonesa,41000031000197,R. Wisard,800,,Vila Madalena,São Paulo,SP,05434095,(11) 9765-1295,-23.5571,-46.6890
+sorveteria-do-parque,Sorveteria do Parque,Sorvetes,41000032000181,Rua Heitor Penteado,120,,Pinheiros,São Paulo,SP,05438010,(11) 9654-1300,-23.5567,-46.6881
+livraria-cafe,Livraria Café,Café,41000033000172,Rua Artur de Azevedo,700,,Cerqueira César,São Paulo,SP,05404035,(11) 9543-1305,-23.5638,-46.6840
+churrascaria-pampa,Churrascaria Pampa,Churrascaria,41000038000126,Rua Harmonia,720,,Vila Madalena,São Paulo,SP,05435030,(11) 9432-1310,-23.5576,-46.6861
+thai-house-madalena,Thai House,Tailandesa,41000039000110,R. Fradique Coutinho,780,,Vila Madalena,São Paulo,SP,05422145,(11) 9321-1315,-23.5580,-46.6905
+bar-da-esquina,Bar da Esquina,Bar,41000040000102,Rua Sumidouro,500,,Pinheiros,São Paulo,SP,05421050,(11) 9210-1320,-23.5613,-46.6866
+ramen-house,Ramen House,Japonesa,41000072000186,Rua dos Pinheiros,340,,Pinheiros,São Paulo,SP,05422020,(11) 9109-1325,-23.5623,-46.6892
+food-truck-gourmet,Food Truck Gourmet,Variada,41000073000170,Rua Teodoro Sampaio,2300,,Pinheiros,São Paulo,SP,05406050,(11) 9098-1330,-23.5644,-46.6824
+padaria-artesanal-3j,Padaria 3J,Padaria,41000074000164,Rua Cardeal Arcoverde,320,,Pinheiros,São Paulo,SP,05407002,(11) 9087-1335,-23.5644,-46.6869
+espaco-saudavel,Espaço Saudável,Saudável,41000075000155,Rua Mourato Coelho,230,,Pinheiros,São Paulo,SP,05417005,(11) 9076-1340,-23.5602,-46.6879
+crepe-suzette,Crépe Suzette,Crepes,,Rua Girassol,600,,Vila Madalena,São Paulo,SP,05433065,(11) 9065-1345,-23.5557,-46.6886
+taco-loco,Taco Loco,Mexicana,,R. Fradique Coutinho,750,,Vila Madalena,São Paulo,SP,05422145,(11) 9054-1350,-23.5583,-46.6906
+the-burger-joint,The Burger Joint,Hambúrguer,,R. Aspicuelta,230,,Vila Madalena,São Paulo,SP,05433015,(11) 9043-1355,-23.5566,-46.6882
+biryani-house,Biryani House,Indiana,,Rua Cardeal Arcoverde,1450,,Pinheiros,São Paulo,SP,05407018,(11) 9032-1360,-23.5654,-46.6857
+esfiha-bom-gosto,Esfiha Bom Gosto,Árabe,,Rua Teodoro Sampaio,1200,,Pinheiros,São Paulo,SP,05406015,(11) 9021-1365,-23.5641,-46.6833
+tapiocaria-nordestina,Tapiocaria Nordestina,Tapioca,,Rua Heitor Penteado,600,,Pinheiros,São Paulo,SP,05438060,(11) 9010-1370,-23.5565,-46.6878
+ceviche-house,Ceviche House,Peruana,,R. Inácio Pereira da Rocha,340,,Vila Madalena,São Paulo,SP,05434068,(11) 9009-1375,-23.5577,-46.6903
+korean-bbq-madalena,Korean BBQ Madalena,Coreana,,R. Harmonia,260,,Vila Madalena,São Paulo,SP,05435012,(11) 9008-1380,-23.5581,-46.6870
+pasta-e-vino,Pasta e Vino,Italiana,41000060000106,R. Aspicuelta,580,,Vila Madalena,São Paulo,SP,05433025,(11) 3032-1410,-23.5562,-46.6873
+bar-do-mecanico,Bar do Mecânico,Bar,41000061000197,Rua Sumidouro,340,,Pinheiros,São Paulo,SP,05421040,(11) 3082-1420,-23.5612,-46.6867
+cantina-sao-cristovao,Cantina São Cristóvão,Italiana,41000062000181,Rua Cardeal Arcoverde,1800,,Pinheiros,São Paulo,SP,05407022,(11) 3083-1430,-23.5657,-46.6852
+o-melhor-acai,O Melhor Açaí,Açaí,41000064000166,R. Fradique Coutinho,1100,,Vila Madalena,São Paulo,SP,05422155,(11) 9876-1450,-23.5580,-46.6904
+salada-bar,Salada Bar,Saudável,41000066000141,R. Inácio Pereira da Rocha,450,,Vila Madalena,São Paulo,SP,05434075,(11) 3815-1470,-23.5576,-46.6901
+rodizio-express-madalena,Rodízio Express,Brasileira,41000067000135,Rua Girassol,500,,Vila Madalena,São Paulo,SP,05433065,(11) 3032-1480,-23.5556,-46.6885
+cantina-dos-amigos,Cantina dos Amigos,Italiana,41000068000126,Rua Harmonia,150,,Vila Madalena,São Paulo,SP,05435015,(11) 3815-1490,-23.5583,-46.6871
+poke-bowl-fusion,Poke Bowl Fusion,Poke,41000070000101,R. Wisard,1010,,Vila Madalena,São Paulo,SP,05434100,(11) 3815-1500,-23.5570,-46.6891
+cervejaria-sp,Cervejaria SP,Bar,41000071000192,R. Purpurina,450,,Vila Madalena,São Paulo,SP,05435075,(11) 3815-1510,-23.5574,-46.6853
+kombucha-bar,Kombucha Bar,Saudável,,R. Fidalga,380,,Vila Madalena,São Paulo,SP,05432035,(11) 9007-1520,-23.5567,-46.6917
+wrap-and-go,Wrap & Go,Lanches,,R. Wisard,260,,Vila Madalena,São Paulo,SP,05434063,(11) 9006-1525,-23.5573,-46.6896
+acai-natural-madalena,Açaí Natural Madalena,Açaí,,Rua Girassol,720,,Vila Madalena,São Paulo,SP,05433070,(11) 9005-1530,-23.5555,-46.6883
+marmita-fit-pinheiros,Marmita Fit Pinheiros,Saudável,,Rua Teodoro Sampaio,980,,Pinheiros,São Paulo,SP,05405060,(11) 9004-1535,-23.5633,-46.6847
+sushi-fusion-express,Sushi Fusion Express,Japonesa,,R. Aspicuelta,490,,Vila Madalena,São Paulo,SP,05433022,(11) 9003-1540,-23.5565,-46.6875
+pizza-brotinho,Pizza Brotinho,Pizza,,R. Harmonia,400,,Vila Madalena,São Paulo,SP,05435022,(11) 9002-1545,-23.5579,-46.6866
+espeto-gourmet,Espeto Gourmet,Espetos,,Rua Sumidouro,600,,Pinheiros,São Paulo,SP,05421055,(11) 9001-1550,-23.5614,-46.6865
+beirute-pinheiros,Beirute Pinheiros,Árabe,,Rua Cardeal Arcoverde,1650,,Pinheiros,São Paulo,SP,05407021,(11) 9000-1555,-23.5656,-46.6854
+wok-express,Wok Express,Asiática,,R. Fradique Coutinho,860,,Vila Madalena,São Paulo,SP,05422148,(11) 8999-1560,-23.5581,-46.6903
+tapioca-fit,Tapioca Fit,Tapioca,,Rua Mourato Coelho,1200,,Pinheiros,São Paulo,SP,05417026,(11) 8998-1565,-23.5595,-46.6870
+esfira-e-cia,Esfiha & Cia,Árabe,,Rua Fidalga,500,,Vila Madalena,São Paulo,SP,05432055,(11) 8997-1570,-23.5570,-46.6916
+gelato-artesanal,Gelato Artesanal,Sorvetes,,R. Purpurina,290,,Vila Madalena,São Paulo,SP,05435068,(11) 8996-1575,-23.5575,-46.6855
+churros-e-cia,Churros e Cia,Doces e Bolos,,R. Aspicuelta,610,,Vila Madalena,São Paulo,SP,05433028,(11) 8995-1580,-23.5562,-46.6871
+pasta-fresca-madalena,Pasta Fresca Madalena,Italiana,,Rua Harmonia,780,,Vila Madalena,São Paulo,SP,05435032,(11) 8994-1585,-23.5578,-46.6860
+acaraje-da-bahia,Acarajé da Bahia,Baiana,,R. Inácio Pereira da Rocha,540,,Vila Madalena,São Paulo,SP,05434080,(11) 8993-1590,-23.5575,-46.6898
+smash-burger-madalena,Smash Burger Madalena,Hambúrguer,,Rua Girassol,820,,Vila Madalena,São Paulo,SP,05433072,(11) 8992-1595,-23.5554,-46.6881
